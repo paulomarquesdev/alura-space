@@ -1,15 +1,16 @@
 @import-normalize;
+@import './variables';
 
 @font-face {
-    font-family: 'GandhiSansRegular';
-    src: local('GandhiSansRegular'), url('../assets/fonts/GandhiSans-Regular.otf') format("truetype");
+    font-family: $fontNormal;
+    src: local($fontNormal), url('../assets/fonts/GandhiSans-Regular.otf') format("truetype");
     font-weight: normal;
     display: swap;
 }
 
 @font-face {
-    font-family: 'GandhiSansBold';
-    src: local('GandhiSansBold'), url('../assets/fonts/GandhiSans-Bold.otf') format("truetype");
+    font-family: $fontBold;
+    src: local($fontBold), url('../assets/fonts/GandhiSans-Bold.otf') format("truetype");
     font-weight: bold;
     display: swap;
 }
@@ -18,9 +19,9 @@ html, body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background: linear-gradient(174.61deg, #041833 4.16%, #04244F 48%, #154580 96.76%);
+    background: linear-gradient(174.61deg, $blueDark 4.16%, $blueFooter 48%, $blueLight 96.76%);
     box-sizing: border-box;
-    font-family: 'GandhiSansRegular', sans-serif;
+    font-family: $fontNormal, sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -28,10 +29,10 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #154580;
+    background-color: $blueFooter;
     border-radius: 1.3rem;
 }
 
 body::-webkit-scrollbar-track {
-    background: linear-gradient(#041833, #154580);
+    background: linear-gradient($blueDark, $blueLight);
 }

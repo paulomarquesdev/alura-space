@@ -1,3 +1,5 @@
+@import '../../styles/variables';
+
 nav {
     width: 18%;
   
@@ -17,9 +19,9 @@ nav {
     
         &:first-child {
           a {
-            font-weight: 700;
-            color: #7b78e5;
-            font-family: "GandhiSansBold";
+            font-weight: bold;
+            color: $purple;
+            font-family: $fontBold;
           }
         }
       }
@@ -36,7 +38,7 @@ nav {
     a {
       text-decoration: none;
       font-size: 1.125rem;
-      color: #d9d9d9;
-      font-family: "GandhiSansRegular"
+      color: $textColor;
+      font-family: $fontNormal;
     }
   }
