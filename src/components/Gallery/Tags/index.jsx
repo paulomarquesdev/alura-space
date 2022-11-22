@@ -1,14 +1,16 @@
 import './style.scss';
 
-export default function Tags() {
+export default function Tags({ tags, photosFilter, revertFilter }) {
   return (
     <div className='tags'>
         <p>Filtre por tags:</p>
         <ul className='tags__list'>
-            <li className='tags__items'>Estrelas</li>
-            <li className='tags__items'>Galáxias</li>
-            <li className='tags__items'>Lua</li>
-            <li className='tags__items'>Planetas</li>
+            {tags.map((item) => {
+                console.log()
+                return (
+                    <li key={item} onClick={()=>photosFilter(item)} onDoubleClick={()=>revertFilter()} className='tags__items'>{item}</li>
+                )
+            })}
         </ul>
     </div>
   )
