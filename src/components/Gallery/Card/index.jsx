@@ -1,6 +1,6 @@
-import openImg from '../../assets/images/open.png';
-import favoriteImg from '../../assets/images/favorito.png';
-import fotoImg from '../../assets/images/galeria/foto-1.png';
+import openImg from '../../../assets/images/open.png';
+import favoriteImg from '../../../assets/images/favorito.png';
+import fotoImg from '../../../assets/images/galeria/foto-1.png';
 import './style.scss';
 import React from 'react';
 

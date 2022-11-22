@@ -1,6 +1,6 @@
 import './style.scss';
-import Tags from '../Tags';
-import { Card } from '../Card';
+import Tags from './Tags';
+import { Card } from './Card';
 import photos from './photos.json';
 
 export function Gallery() {
