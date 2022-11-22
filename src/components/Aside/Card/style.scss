@@ -1,0 +1,11 @@
+@import "../../../styles/variables";
+
+.common__item {
+    display: block;
+    border-radius: 1rem;
+
+    .common__img {
+        width: 13.25rem;
+        height: 7.375rem;
+    }
+}

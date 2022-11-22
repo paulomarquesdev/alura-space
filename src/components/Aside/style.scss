@@ -1,0 +1,26 @@
+@import "../../styles/variables";
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    // padding-right: 1.5rem;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        display: inline-block;
+        font-size: 2rem;
+        font-family: $fontNormal;
+        font-weight: normal;
+        color: $purple;
+    }
+
+    .common__list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin: 0;
+        padding: 0;
+    }
+}
