@@ -5,6 +5,7 @@ import { Header } from "../../components/Header";
 import { SideBar } from "../../components/SideBar";
 import { Gallery } from "../../components/Gallery";
 import Error from "../../components/Error";
+import { Aside } from "../../components/Aside";
 
 export function Home() {
     return (
@@ -16,7 +17,10 @@ export function Home() {
                     <Banner />
                 </section>
             </main>
-            <Gallery />
+            <section className="sectionPhotos" >
+                <Gallery />
+                <Aside />
+            </section>
 
             <Error />
         </React.Fragment>
