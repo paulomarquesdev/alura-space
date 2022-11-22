@@ -5,14 +5,14 @@
     font-family: $fontNormal;
     src: local($fontNormal), url('../assets/fonts/GandhiSans-Regular.otf') format("truetype");
     font-weight: normal;
-    display: swap;
+    font-display: swap;
 }
 
 @font-face {
     font-family: $fontBold;
     src: local($fontBold), url('../assets/fonts/GandhiSans-Bold.otf') format("truetype");
     font-weight: bold;
-    display: swap;
+    font-display: swap;
 }
 
 html, body {
