@@ -1,3 +1,28 @@
+# Alura Space
+
+![preview](.github/print.png)
+
+> Alura Space
+
+Projeto construído durante o curso React com javaScript: Lidando com arquivos estáticos, ministrado pela Alura.
+
+[Clique aqui para acessar](https://aluraspace-gallery.vercel.app/)
+
+## Tecnologias
+
+- ReactJS
+- JavaScript
+- Sass
+
+## 💻 Projeto
+
+O Alura Space é uma página web de galeria de fotos do espaço.
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através original da Alura [DESSE LINK](https://www.figma.com/file/pGtQ4gC2GVEUEhrN789TU3/Alura-Space-%7C-React%3A-arquivos-est%C3%A1ticos-(Copy)?node-id=123%3A1462&t=zLSCxFwLx2dPTB8J-1). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
