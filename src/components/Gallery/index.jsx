@@ -1,6 +1,7 @@
-import { Card } from '../Card';
-import Tags from '../Tags';
 import './style.scss';
+import Tags from '../Tags';
+import { Card } from '../Card';
+import photos from './photos.json';
 
 export function Gallery() {
     return (
@@ -8,7 +9,11 @@ export function Gallery() {
             <h2>Navegue pela galeria</h2>
             <Tags />
             <ul className='cards__list'>
-                <Card />
+                {photos.map((photoItem) => {
+                    return (
+                        <Card key={photoItem.id} photo={photoItem}/>
+                    )
+                })}
             </ul>
         </section>
     )
