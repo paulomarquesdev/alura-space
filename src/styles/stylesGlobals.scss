@@ -1,10 +1,17 @@
+@import-normalize;
+
 @font-face {
     font-family: 'GandhiSansRegular';
-    src: url('../assets/fonts/GandhiSans-Regular.otf');
+    src: local('GandhiSansRegular'), url('../assets/fonts/GandhiSans-Regular.otf') format("truetype");
+    font-weight: normal;
+    display: swap;
 }
+
 @font-face {
     font-family: 'GandhiSansBold';
-    src: url('../assets/fonts/GandhiSans-Bold.otf');
+    src: local('GandhiSansBold'), url('../assets/fonts/GandhiSans-Bold.otf') format("truetype");
+    font-weight: bold;
+    display: swap;
 }
 
 html, body {
@@ -14,4 +21,17 @@ html, body {
     background: linear-gradient(174.61deg, #041833 4.16%, #04244F 48%, #154580 96.76%);
     box-sizing: border-box;
     font-family: 'GandhiSansRegular', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 0.2rem;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #154580;
+    border-radius: 1.3rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: linear-gradient(#041833, #154580);
 }
