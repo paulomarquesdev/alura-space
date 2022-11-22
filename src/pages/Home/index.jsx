@@ -6,6 +6,7 @@ import { SideBar } from "../../components/SideBar";
 import { Gallery } from "../../components/Gallery";
 import Error from "../../components/Error";
 import { Aside } from "../../components/Aside";
+import { Footer } from "../../components/Footer";
 
 export function Home() {
     return (
@@ -21,7 +22,8 @@ export function Home() {
                 <Gallery />
                 <Aside />
             </section>
-
+            <Footer />
+            
             <Error />
         </React.Fragment>
     );
